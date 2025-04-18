@@ -1,0 +1,87 @@
+body {
+    background-color: rgb(226, 226, 226);
+    display: flex;
+    justify-content: center; 
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    padding-top: 50px;
+}
+
+.tieude {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.tieude h1 {
+    text-align: left;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 55px;
+    max-width: 900px; 
+}
+.mucluc p{
+    color: black;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+}
+.mucluc{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    gap: 30px;
+}
+.cot1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    padding: 0;
+}
+.cot1 img{
+    max-width: 60%;
+}
+.cot2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    padding: 0;
+}
+.cot2 img{
+    max-width: 60%;
+}
+.anh{
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+}
+.cot3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    padding: 0;
+}
+.cot3 img{
+    max-width: 60%;
+}
